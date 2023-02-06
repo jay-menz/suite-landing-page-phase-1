@@ -5,9 +5,10 @@
 }
 
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'epilogue';
     display: grid;
     place-items: center;
+    overflow-x: hidden;
 }
 /* theme colors */
 :root {
@@ -17,324 +18,282 @@ body{
     --accent-color: rgb(250 248 246);
 
     /* super-blend */
-    --top-color: rgb(160 96 255);
+    --top-color: rgb(9, 7, 12);
     --middle-color: rgb(203 48 227);
     --bottom-color: rgb(255 168 78);
 
 }
-.container{
-    max-width: 400px;
-    margin: 1rem;
-}
-
-header{
+#navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.logo{
+    position: absolute;
+    width: 78.41px;
+    margin-left: -2rem;
+    margin-bottom: -15rem;
+}
+bold{
+    font-weight: 700;
+}
 button{
     padding: 1rem;
-    border: 1px solid var(--very-dark-color);
     background-color: #fff;
     border-radius: 0.5rem;
+    font-style: 'epilogue';
+    letter-spacing: -0.16px;
+    font-size: 16px;
+    width: 256px;
 }
-
-main{
-    margin-top: 3rem;
+.header-btn{
+    border: 1px solid var(--very-dark-color);
+    margin-bottom: -15rem;
+    margin-left: 85rem;
 }
+.header-btn:hover{
+    background-color: #172339;
+    color: #fff;
+}
+#super-solution{
+    width: 1110px;
+    height: 250px;
+    /* margin-top: 30rem; */
 
+}
+.curved-line{
+    margin-left: -45rem;
+    margin-top: -120rem;
+    height: 52px;
+}
+/* .price-list{
+    margin-left: -5rem;
+    flex-direction: column;
+    margin: 3rem auto;
+    height: 50rem;
+    justify-content: space-between;
+} */
+.price-list{
+    margin-left: 75rem;
+    margin-top: 40rem;
+    /* margin-bottom: -50rem; */
+}
+.bolded-price{
+font-family: 'epilogue';
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.5px;
+color: #172339;
+}
+.price-info{
+    font-family: 'epilogue';
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 26px;
+    color: #49566D;
+    letter-spacing: 2.5px;
+}
+.twoK{
+    margin-bottom: 5rem;
+}
+.eight{
+    margin-bottom: 5rem;
+}
+.one-point2{
+    margin-bottom: 5rem;
+}
+#superHeader-paragraph-button{
+    margin-top: -80rem;
+}
 .mission-statement{
-    font-size: 40px;
-    color: var(--very-dark-color);
-    margin-right: 5px;
+    color: #172339;
+    font-family: 'epilogue';
+    font-size: 100px;
+    margin-right: 100px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    width: 1635px;
 }
-
-bold{
-    font-weight: bolder;
-
-}
-.curve-line{
-    margin-left: 9.5rem;
-    width: 150px;
-}
-img .curve{
-    width: 100%;
-}
-
-
-span{
- font-weight: 300;
-}
-
 .quote1{
-    font-size: 20px;
-    line-height: 35px;
-    margin: 2rem auto;
-    font-weight: 300;
-    color: var(--dark-color );
+    font-size: 25px;
+    color: #49566D;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'epilogue';
+    letter-spacing: 0.4px;
+    margin-bottom: 5rem;
 }
 .mission-btn{
-    color: var(--accent-color);
-    background-color: var(--very-dark-color);
+  background-color: #172339;
+  color: #fff;
+  border-color: #fff;
 }
 .mission-btn:hover{
     background: linear-gradient(135deg, #a060ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+    color: #fff;
 }
-.hero{
-    margin: 3rem auto;
+/* .full-rectangular-box{
+    width: 1110px;
+    height: 586.96px;
+    margin-bottom: 70rem;
+    color: #172339;
 }
-.hero img{
-    width: 100%;
-    height: auto;
+.rectangular-box{
+    color: #172339;
+} */
+
+#blue-black-rectangular-box{
+    background: #172339;
+    border-radius: 15px;
+    width: 1809px;
+    height: 870px;
+    margin-top: -145rem;
 }
-.tablet-hero-img-container,
-desktop-hero-img-container{
-    display: none;
+.blur{
+    opacity: 0.48;
+    filter: blur(87.957px);
+    margin-top: -15rem;
+    margin-left: 15rem;
 }
-.stats{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    height: 16rem;
-    margin: 3rem auto;
+.jeremy-img{
+    /* background: url(Image.png); */
+    width: 600px;
+    height: 950px; 
+    margin-left: -34rem;
+    margin-top: -5rem;
 }
-.bolded-stats{
-    font-size: 35px;
+#footer-rectangle-background{
+    background: #F3EDE7;
+    width: 2500px;
+    height: 1095px;
+    margin-top: 44rem;
 }
-.stats-text{
-    text-transform: uppercase;
-    color: var(--dark-color);
-    font-weight: 300;
+.curved-line2{
+    margin-left: 12rem;
+    margin-bottom: 35rem
 }
-.white-space{
-height: 11rem;
-}
-.testimonial{
-position: relative;
-background-color: var(--very-dark-color);
-color: var(--accent-color);
-border-radius: 0.5rem;
-}
-.testimonial-content{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
+#just-works{
+    width: 850px;
+    height: 369px;
+    margin-left: 80rem;
+    margin-top: -45rem;
+    color: white;
 }
 
-.jeremy-img-container{
-width: 65%;
-position: absolute;
-left: 4.5rem;
-top: -8rem;
+.it-just-works-title{
+    font-family: 'epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 56px;
+    color: #FAF8F6;
 }
-
-.blurred-bg{
-margin: 0 auto;
-width: 70%;
-text-align: center;
-margin-bottom: 1rem;
-}
-
-.curved-line-2{
-width: 15%;
-margin-bottom: 2rem;
-}
-
-.desktop-testimonial-2{
-text-align: center;
-}
-.testimonial-title{
-font-size: 32px;
-letter-spacing: -0.2px;
-}
-.testimonial-body{
-margin-bottom: 2rem;
-font-size: 18px;
-line-height: 35px;
-margin: 2rem auto;
-font-weight: 300;
-text-align: center;
-padding-inline: 1.5rem;
-}
-.testimonial-name{
-margin-bottom: 3rem;
-text-align: center;
-line-height: 32px;
+.it-just-works-body{
+    letter-spacing: 0.1px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 3rem;
 }
 .upcase-bold{
-text-transform: uppercase;
-font-weight: bold;
-
+    margin-top: 3rem;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
 }
 .upcase-regular{
-text-transform: uppercase;
+    margin-top: 1rem;
 }
 
 footer{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
-padding: 4rem;
-height: 17rem;
-background-color: var(--neutral-color);
-color: var(--very-dark-color);
-}
-
-.footer-logo{
-width: 30%;
-}
-
-#copyright{
-text-transform: capitalize;
-color: var(--dark-color);
-}
-
-.links ul{
-width: 7rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-list-style: none;
-}
-
-@media screen and (min-width: 600px) {
-    .container{
-        min-width: 600px;
-        margin-bottom: 0;
-    }
-    button{padding: 1.2rem 1.8rem;
-}
-.tablet-config{
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-}
-.mission{
-    height: min-content;
-    position: relative;
-    top: 4rem;
-}
-.main-header{
-    position: absolute;
-    width: 31rem;
-    top: -8.5rem;
-}
-.curve-line{
-    margin-left: 11.5rem;
-    width: 180px;
-}
-.mission-statement{
-    font-size: 48px;
-}
-.mobile-hero-img{
-    display: none;
-}
-.tablet-hero-img-container{
-    display: block;
-    width: 16rem;
-}
-.stats{
-    height: auto;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.white-space{
-    margin-top: 90px;
-}
-.jeremy-img-container{
-    width: 54%;
-    left: 8rem;
-}
-.testimonial-title{
-    font-size: 40px;
-}
-footer{
-    flex-direction: row;
+    width: 1809px;
+    height: 32px;
+    display: inline-flex;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    height: 12rem;
-}
-.footer-logo{
-    width: 85px;
-}   
-.background{
-    width: 900px;
-    position: absolute;
-    height: 730px;
-    top: 1325px;
-    z-index: 1;
-    background-color: var(--neutral-color);
-}
+    margin-top: -70rem;
 }
 
+/* .footer-logo{
+    margin-left: 85rem;
+}  */
+.copyright{
+    color: #49566D;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    align-items: center;
+    /* margin-right: -90rem; */
+}
+.links li{
+    display: inline; 
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    /* width: 116px;
+    height: 20px; */
+}
+.links ul{
+    margin-left: 2rem;
+}
 
-@media screen and (min-width: 1024px) {
-    .container{
-        min-width: 900px;
-    }
-    .header-btn:hover{
-        background-color: var(--very-dark-color);
-        color: var(--accent-color);
-    }
-    .desktop-view{
+/* .fb{
+    margin-left: 5rem;
+}
+.twitter{
+    margin-left: auto;
+}
+.insta{
+    margin-left: auto;
+} */
+
+
+
+/* media query Tablet*/
+@media only screen and (max-width: 768px){
+    #navigation{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+        margin-right: 40px;
+        /* width: 689px;
+        height: 56px; */
     }
-    .main-header{
-        width: 38rem;
-        top: 12rem;
-    }
-    .curve-line{
-        margin-left: 17rem;
-        width: 275px;
-    }
-    .mission-statement{
-        font-size: 72px;
-    }
-    .tablet-hero-img-container{
-        width: 20rem;
-    }
-    .stats{
-        flex-direction: column;
-        margin: 0.4rem;
-        justify-content: space-evenly;
-    }
-    .white-space{
-        height: 2rem;
-    }
-    .desktop-testimonial-2{
-height: 430px;
-padding: 4rem 4rem 0 2rem;
-    }
-    .testimonial-body{
-padding-left: 0;
-    }
-    .testimonial-name{
 
-    }
-    .testimonial-content{
-flex-direction: row;
-    }
-    .jeremy-img-container{
-        top: -1.25rem;
-        left: 5.5rem;
-        width: 17.5rem;
-    }
-    .blurred-bg{
-        width: 26rem;
-        padding: 3rem;
-        padding-left: 3rem;
-    }
-    .background{
-        width: 1248px;
-        height: 450px;
+    .logo{
         position: absolute;
-        top: 1100px;
+        width: 78.41px;
+        margin-left: -2rem;
+        margin-bottom: -15rem;
     }
+
+
+
+    .header-btn{
+        border: 1px solid var(--very-dark-color);
+        margin-bottom: -15rem;
+        margin-left: 85rem;
+        width: 219px;
+        height: 56px;  
+    }
+
+
+    #super-solution{
+        width: 573px;
+        height: 354px;
+        /* margin-top: 30rem; */
     
+    }
+
+
+
+
 }
+

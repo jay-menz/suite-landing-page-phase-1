@@ -17,10 +17,14 @@
     padding: 0;
 }
 
+/* https://www.figma.com/file/Is1ifzsefssJvgPQQJtDkw/suite-landing-page?node-id=0%3A1&t=XSjJ1MgKmiT94MXz-0 */
+
 body{
     font-family: var(--font);
     display: grid;
     place-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
     /* overflow-x: hidden; */
 }
 /* theme colors */
@@ -46,18 +50,22 @@ body{
     margin-bottom: auto;
 } */
 #navigation{
-    justify-content: space-between;
     display: flex;
-    /* margin-left: 20rem; */
-    margin-right: 30.5rem;
     margin-top: 30px;
-    width: 80%;
-    /* background-color: antiquewhite; */
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#navigation .logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+
 }
 .logo img{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
 }
 
 bold{
@@ -74,9 +82,9 @@ button{
 }
 .header-btn{
     border: 1px solid var(--very-dark-color);
-    width: 219px;
-    height: 56px;
-    margin-left: 59rem;      /* margin-bottom: -15rem; */
+    /* height: 56px; */
+    /* margin-left: 59rem;      
+    margin-bottom: -15rem; */
 
 }
 .header-btn:hover{
@@ -84,14 +92,14 @@ button{
     color: #fff;
 }
 #super-solution{
-    width: 1110px;
-    height: 250px;
+    width: 100%;
+    /* height: 250px; */
     /* margin-top: 30rem; */
 
 }
 .curved-line{
-    margin-left: -45rem;
-    margin-top: -120rem;
+    /* margin-left: -45rem; */
+    /* margin-top: -120rem; */
     height: 52px;
 }
 /* .price-list{
@@ -132,10 +140,10 @@ color: #172339;
     margin-bottom: 3rem;
 }
 #superHeader-paragraph-button{
-    margin-top: -40rem;
-    margin-right: 89.5rem;
+    /* margin-top: -40rem; */
+    /* margin-right: 89.5rem; */
     /* border: 1px solid red; */
-    width: 503px;
+    width: 100%;
 }
 .mission-statement{
     color: #172339;
@@ -145,8 +153,8 @@ color: #172339;
     letter-spacing: -1px;
     font-weight: 400;
     line-height: 78px;
-    width: 635px;
-    height: 156px;
+    /* width: 635px; */
+    /* height: 156px; */
 }
 .quote1{
     font-size: 18px;
@@ -161,8 +169,8 @@ color: #172339;
 
 }
 .desktop-hero-img{
- margin-right: 50rem;
- margin-top: -7rem;
+ /* margin-right: 50rem; */
+ /* margin-top: -7rem; */
 }
 .mission-btn{
   background-color: #172339;
@@ -183,45 +191,45 @@ color: #172339;
     color: #172339;
 } */
 
-#blue-black-rectangular-box{
+.blue-black-rectangular-box{
     background: #172339;
     border-radius: 15px;
-    width: 1109px;
-    height: 545px;
-    margin-top: -180rem;
-    margin-right: 55rem;
+    /* height: 545px; */
+    /* margin-top: -180rem; */
+    /* margin-right: 55rem; */
     border: 2px solid rgb(91, 130, 0);
+    width: 100%;
 
 }
 .blur{
     opacity: 0.48;
     filter: blur(87.957px);
-    margin-top: 7rem;
-    margin-left: 2rem;
+    /* margin-top: 7rem; */
+    /* margin-left: 2rem; */
 }
 .jeremy-img{
     /* background: url(Image.png); */
-    width: 359.81px;
+    /* width: 359.81px; */
     /* height: 569.56px;  */
-    margin-left: -29rem;
-    margin-bottom: 25rem;
+    /* margin-left: -29rem;
+    margin-bottom: 25rem; */
     border: 2px solid green;
 }
 #footer-rectangle-background{
     background: #F3EDE7;
-    width: 2500px;
-    height: 1095px;
+    /* width: 2500px; */
+    /* height: 1095px; */
     margin-top: 44rem;
 }
 .curved-line2{
     margin-left: 1rem;
-    margin-bottom: 27rem;
+    /* margin-bottom: 27rem; */
 }
-#just-works{
-    width: 350px;
+.just-works{
+    /* width: 350px;
     height: 369px;
     margin-left: 50rem;
-    margin-top: -40rem;
+    margin-top: -40rem; */
     color: white;
 }
 
@@ -254,11 +262,10 @@ color: #172339;
 }
 
 footer{
-    width: 1809px;
-    height: 32px;
-    display: inline-flex;
+    width: 100%;
+    height: 30vh;
+    display: flex;
     justify-content: space-between;
-    margin-top: -70rem;
 }
 
 /* .footer-logo{
@@ -323,15 +330,15 @@ footer{
     .header-btn{
         border: 1px solid var(--very-dark-color);
         margin-bottom: -15rem;
-        margin-left: 85rem;
-        width: 219px;
+        /* margin-left: 85rem; */
+        /* width: 219px; */
         height: 56px;  
     }
 
 
     #super-solution{
-        width: 573px;
-        height: 354px;
+        /* width: 573px; */
+        /* height: 354px; */
         /* margin-top: 30rem; */
     
     }

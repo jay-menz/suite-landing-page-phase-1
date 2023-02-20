@@ -18,6 +18,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 /* https://www.figma.com/file/Is1ifzsefssJvgPQQJtDkw/suite-landing-page?node-id=0%3A1&t=XSjJ1MgKmiT94MXz-0 */
@@ -432,6 +433,9 @@ li{
 }
 /* tablet view */
 @media only screen and (min-width: 768px) and (max-width: 1000px){
+    *{
+        width: auto;
+    }
     nav{
          /* background-color: violet; */
     width: 83%;
@@ -650,6 +654,9 @@ footer{
 }
 /* mobile version */
 @media only screen and (min-width: 300px) and (max-width: 428px){
+    *{
+        width: auto;
+    }
     nav{
         width: 90%;
         height: 48px;

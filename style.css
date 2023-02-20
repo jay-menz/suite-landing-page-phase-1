@@ -14,11 +14,12 @@
     --font:Epilogue;
 
 }
-*{
+::before,
+::after{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    width: auto;
+    /* width: auto; */
 }
 
 /* https://www.figma.com/file/Is1ifzsefssJvgPQQJtDkw/suite-landing-page?node-id=0%3A1&t=XSjJ1MgKmiT94MXz-0 */
@@ -26,6 +27,7 @@
 body{
     overflow-x: hidden;
     font-family: var(--font);
+    width: auto;
     /* background-color: #172339; */
 }
 nav{
@@ -658,9 +660,9 @@ footer{
         width: auto;
     }
     nav{
-        width: 90%;
-        height: 48px;
-        margin-left: 20px;
+        width: 100%;
+        height: 50px;
+        margin-left: -20px;
         /* justify-content: space-evenly;
         padding-left: 5px;
         padding-right: 5px; */
@@ -683,7 +685,7 @@ footer{
     .mobile-img-hero{
         display: inline;
         margin-top: 400px;
-        margin-left: 23px;
+        margin-left: 10px;
     }
     .jeremy-photo{
         display: none;
